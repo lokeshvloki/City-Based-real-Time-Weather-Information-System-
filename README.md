@@ -92,7 +92,7 @@ Feel free to fork this project and submit pull requests. Contributions are welco
 
 ## 👨‍💻 Developed By <a name="dev"></a>
 
-##### [Lokesh V](https://www.linkedin.com/in/lokeshv)
+##### [Lokesh V](https://www.linkedin.com/in/lokeshv](https://www.linkedin.com/in/lokesh-v-13873a284-v-13873a284)
 
 ## 📄 License <a name="lic"></a>
 This project is licensed under the MIT License.
