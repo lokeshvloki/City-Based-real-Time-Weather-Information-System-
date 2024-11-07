@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City-Based Real-Time Weather Information System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Search Bar Section -->
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter city name" onkeydown="handleKeyPress(event)" />
+            <button onclick="searchCity()">Search</button>
+        </div>
+
+        <!-- Weather Display Section -->
+        <div class="weather-display">
+            <h2 id="cityName">City Name</h2>
+            <div id="temp">--°C</div>
+            <div id="weatherDesc">Weather Description</div>
+            <!-- Additional Weather Info -->
+            <div id="extra-info">
+                <p>Humidity: <span id="humidity">--%</span></p>
+                <p>Visibility: <span id="visibility">-- km</span></p>
+            </div>
+        </div>
+
+        <!-- Error message container -->
+        <div id="errorContainer" style="color: red; margin-top: 20px;"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
